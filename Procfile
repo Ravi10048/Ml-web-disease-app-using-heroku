@@ -1,1 +1,1 @@
-web: gunicorn streamlit run multiple_disease_predictor.py
+web: sh setup.sh && streamlit run multiple_disease_predictor.py
